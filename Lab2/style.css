@@ -54,6 +54,7 @@ header {
     display: block;
 }
 
+/* Стили ссылок */
 a {
     color: var(--link-color);
 }
@@ -65,6 +66,11 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: var(--accent-color);
+}
+
+/* Добавил :active для ссылки */
+a:active {
+    color: #f77f00;
 }
 
 aside {
@@ -107,6 +113,12 @@ button {
 
 button:hover {
     background-color: #ffc233;
+}
+
+/* Добавил :focus для кнопки */
+button:focus {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
 }
 
 button:active {
